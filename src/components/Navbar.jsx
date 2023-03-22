@@ -18,12 +18,12 @@ const Navbar = () => {
             
         
                 
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Clients</a></li>
-                <li><a href="#">Stats</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#clients">Clients</a></li>
+                <li><a href="#stats">Stats</a></li>
                 <li ><a
                 className='bg-blue-500 text-white px-4 py-2 rounded-full'
-                 href="#">Contact Us</a></li>
+                 href="#contact">Contact Us</a></li>
 
            </ul>
     

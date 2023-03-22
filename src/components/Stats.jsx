@@ -2,7 +2,9 @@ import React from "react";
 
 const Stats = () => {
   return (
-    <div className="flex flex-col items-center   h-screen bg-gray-100">
+    <div
+    id="stats"
+     className="flex flex-col items-center   h-screen bg-gray-100">
       <h1 className="text-2xl text-gray-500 mt-4 ">Stats</h1>
         <hr
           className="w-32 border-blue-500 border-2 mt-2"

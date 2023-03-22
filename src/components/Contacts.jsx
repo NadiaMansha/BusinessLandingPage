@@ -3,7 +3,9 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 
 const Contacts = () => {
   return (
-    <div className=" bg-blue-200  flex flex-col  justify-center  m-auto w-1/2  rounded-xl shadow-xl mt-5 contacts">
+    <div
+    id="stats"
+     className=" bg-blue-200  flex flex-col  justify-center  m-auto w-1/2  rounded-xl shadow-xl mt-5 contacts">
       <h1 className=" ml-4 font-medium font-sans text-3xl">Contact us Today</h1>
       <p 
       className="ml-4 mt-6"

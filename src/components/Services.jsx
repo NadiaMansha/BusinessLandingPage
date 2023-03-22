@@ -4,7 +4,9 @@ import { HiRocketLaunch } from "react-icons/hi2";
 import { HiDesktopComputer } from "react-icons/hi";
 const Services = () => {
   return (
-    <div className=" mt-16 flex items-center  bg-gray-100 flex-col  h-screen">
+    <div 
+    id="services"
+    className=" mt-16 flex items-center  bg-gray-100 flex-col  h-screen">
       <h1 className="text-2xl text-gray-500 mt-4"> Our Services</h1>
       <hr
           className="w-48 border-blue-500 border-2 mt-2"

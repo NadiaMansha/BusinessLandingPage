@@ -8,7 +8,9 @@ import visa from '../visa.jpg'
 
 const Clients = () => {
   return (
-    <div className="flex  items-center background1 h-screen rounded-2xl w-3/4 mt-8 mb-8">
+    <div 
+    id="clients"
+    className="flex  items-center background1 h-screen rounded-2xl w-3/4 mt-8 mb-8">
       <div className= " flex  flex-col w-3/4  mt-2  h-96 ">
         <div className="flex justify-around">
         <img 
