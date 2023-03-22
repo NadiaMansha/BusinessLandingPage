@@ -2,8 +2,11 @@ import React from "react";
 
 const Stats = () => {
   return (
-    <div className="flex flex-col items-center   h-screen">
-      <h1 className="text-2xl text-gray-500 mt-4">Stats</h1>
+    <div className="flex flex-col items-center   h-screen bg-gray-100">
+      <h1 className="text-2xl text-gray-500 mt-4 ">Stats</h1>
+        <hr
+          className="w-32 border-blue-500 border-2 mt-2"
+         />
       <h1 className="text-4xl text-gray-700 mt-8">
         <span>
           <span className="text-blue-500"> Over Competence,</span>
@@ -29,27 +32,25 @@ const Stats = () => {
         </p>
         <div className="flex flex-col  mt-8">
           <div className="flex">
-            <span className=" bg-white">
-              <h1 
-              className="font-bold text-xl"
-              >12,266</h1> <br />
+            <span >
+              <h1 className="font-bold text-xl">12,266</h1>
               Clients that are currently <br />
               working with us
             </span>
-            <span className="ml-4">
-              <h1>231K</h1> <br />
+            <span className="ml-8">
+              <h1 className="font-bold text-xl">231K</h1>
               Dollars saved thorugh <br />
               our formmulated solutions
             </span>
           </div>
-          <div className="flex ">
-            <span className=" bg-white">
-              <h1>36K+</h1> <br />
+          <div className="flex">
+            <span className="  mt-4">
+              <h1 className="font-bold text-xl">36K+</h1>
               uniquely created solutions <br />
               for clients
             </span>
-            <span>
-              <h1>231K</h1> <br />
+            <span className="ml-8 mt-4">
+              <h1 className="font-bold text-xl">85%</h1>
               growth rate of clients
               <br />
               that worked with us

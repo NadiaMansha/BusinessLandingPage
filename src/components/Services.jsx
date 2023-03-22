@@ -6,6 +6,9 @@ const Services = () => {
   return (
     <div className=" mt-16 flex items-center  bg-gray-100 flex-col  h-screen">
       <h1 className="text-2xl text-gray-500 mt-4"> Our Services</h1>
+      <hr
+          className="w-48 border-blue-500 border-2 mt-2"
+         />
       <h1 className="text-4xl text-gray-700 mt-8">
         <span>
           <span className="text-blue-500"> Strategy Consulting,</span>
@@ -15,7 +18,7 @@ const Services = () => {
         <br />
         Leadership
       </h1>
-      <div className="flex items-center justify-center ">
+      <div className="flex items-center justify-center  h-48">
         <p className="mx-16  text-center  w-1/2">
           ero amet magni odio saepe quos modi esse repellendus nulla suscipit,
           vel, corporis quaerat tenetur, aspernatur corrupti sit pariatur labore

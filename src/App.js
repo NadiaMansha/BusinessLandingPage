@@ -5,15 +5,16 @@ import Services from './components/Services';
 import Contacts from './components/Contacts';
 import Footer from './components/Footer';
 import Stats from './components/Stats';
+import Clients from './components/Clients';
 
 function App() {
   return (
-    <div className="flex flex-col  min-w-full  min-h-screen">
-      <header className=" bg-slate-100 shadow-xl p-4 h-16">
+    <div className="flex flex-col  min-w-full  min-h-screen items-center justify-center">
+      <header className=" bg-slate-100 shadow-xl p-4 h-16 min-w-full">
         <Navbar />
         </header>
         <div 
-        className="flex items-center justify-center  mt-16 background">
+        className="flex items-center justify-center  mt-16 background min-w-full">
          
           <h1 
           className="text-3xl  font-serif font-meduim"
@@ -40,6 +41,7 @@ function App() {
 
       </div>
       <Services />
+      <Clients />
       <Stats />
       <Contacts />
       <Footer />
