@@ -21,6 +21,11 @@ function App() {
           <br />
           <b>NEW HEIGHTS</b>
         </h1>
+        <div 
+        className= " bg-blue-700 h-36 w-1 ml-6"
+        >
+
+        </div>
         <div className="flex flex-col ml-6">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -30,7 +35,9 @@ function App() {
             nunc est aliquam nisl, nec luctus sem
           </p>
           <button className="bg-blue-500  text-white  py-2 rounded-xl  px-1 font-bold mt-6">
+            <a href="#contact">
             Contact us
+            </a>
           </button>
         </div>
       </div>
