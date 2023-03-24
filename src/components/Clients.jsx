@@ -10,30 +10,30 @@ const Clients = () => {
   return (
     <div 
     id="clients"
-    className="flex  items-center background1 h-screen rounded-2xl w-3/4 mt-8 mb-8">
-      <div className= " flex  flex-col w-3/4  mt-2  h-96 ">
-        <div className="flex justify-around">
+    className="flex  items-center justify-center background1 h-screen rounded-2xl w-3/4 mt-8 mb-8 md:min-h-screen md:min-w-full">
+      <div className= " flex items-center justify-center flex-col w-3/4  mt-2  h-96">
+        <div className="flex justify-around  md:justify-between">
         <img 
-        className="w-24 h-24 rounded-xl "
+        className="md:w-12 md:h-12 h-24 w-24 rounded-xl ml-2"
         src={pinterest} alt="" />
         <img 
-        className="w-24 h-24 rounded-xl  bg-white"
+        className="md:w-12 md:h-12 h-24 w-24 rounded-xl  bg-white ml-2"
         src={netflix} alt="" />
         <img 
-        className="w-24 h-24 rounded-xl "
+        className="md:w-12 md:h-12 h-24 w-24 rounded-xl ml-2"
         src={paypal} alt="" />
        
         </div>
        
-        <div className="flex justify-around mt-24">
+        <div className="flex justify-around mt-24 md:justify-between">
         <img 
-        className= "w-24 h-24 rounded-xl"
+        className= "md:w-12 md:h-12 h-24 w-24 rounded-xl ml-2"
         src={airnbnb} alt="" />
         <img 
-        className="w-24 h-24 rounded-xl "
+        className="md:w-12 md:h-12 h-24 w-24 rounded-xl ml-2"
         src={webflow} alt="" />
         <img 
-        className="w-24 h-24 rounded-xl "
+        className="md:w-12 md:h-12 h-24 w-24 rounded-xl ml-2"
         src={visa} alt="" />
        
         </div>
@@ -41,7 +41,7 @@ const Clients = () => {
        
       </div>
       <div className="flex flex-col justify-center items-center">
-        <h1 className="text-2xl text-white mt-4">
+        <h1 className="text-2xl text-white mt-4 md:text-xl">
           <span className="font-bold">
             The Global Management <br />
             Consultency
@@ -49,7 +49,7 @@ const Clients = () => {
           &nbsp; picked by so <br />
           many companies
         </h1>
-        <p className="text-white mt-4 text-center w-3/4">
+        <p className="text-white mt-4 text-center w-3/4 md:w-full">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. hgfrjgijgr
           orgotktunoio Lorem, ipsum. lrem3
           <br />

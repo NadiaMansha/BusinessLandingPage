@@ -3,10 +3,10 @@ import React from 'react'
 const Footer = () => {
   return (
     <div 
-    className="flex  items-center background1 h-36 min-w-full mt-12 justify-between"
+    className="flex  items-center background1 h-36 min-w-full mt-12 justify-between md:fixed md:bottom-0 md:left-0"
     >
         
-        <div className='text-white flex flex-col items-center ml-24'>
+        <div className='text-white flex flex-col items-center ml-24 md:h-1.5 md:text-xs'>
             <h1 
             className='font-bold'
             >Company Name</h1>
@@ -27,14 +27,14 @@ const Footer = () => {
         </div >
         <div>
           <button 
-        className="bg-blue-500  text-white  py-2 rounded-xl pl-12 px-24 font-bold mt-6 text-center"
+        className="bg-blue-500  text-white  py-2 rounded-xl pl-12 px-24 font-bold mt-6 text-center md:ml-4"
           >
           <a href="#contact">Contact</a>
           </button>
         </div>
           
         <div 
-        className='text-white flex flex-col  items-center mr-48'
+        className='text-white flex flex-col  items-center mr-48 md:h-1.5 md:text-xs'
         >
         <h1>Main Office</h1>
           <p>

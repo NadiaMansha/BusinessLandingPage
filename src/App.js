@@ -9,7 +9,7 @@ import Clients from "./components/Clients";
 
 function App() {
   return (
-    <div className="flex flex-col  min-w-full  min-h-screen items-center justify-center">
+    <div className="flex flex-col   min-h-screen  items-center justify-center">
       <header className=" bg-slate-100 shadow-xl p-4 h-16 min-w-full">
         <Navbar />
       </header>

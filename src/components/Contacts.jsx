@@ -5,7 +5,7 @@ const Contacts = () => {
   return (
     <div
     id="contact"
-     className=" bg-blue-200  flex flex-col  justify-center  m-auto w-1/2  rounded-xl shadow-xl mt-5 contacts">
+     className=" bg-blue-200  flex flex-col  justify-center  m-auto w-1/2  rounded-xl shadow-xl mt-5 contacts md:w-3/4 md:h-full md:text-xl">
       <h1 className=" ml-4 font-medium font-sans text-3xl">Contact us Today</h1>
       <p 
       className="ml-4 mt-6"
